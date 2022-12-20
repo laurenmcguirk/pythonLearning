@@ -6,7 +6,7 @@ class team:
         self.name = name 
 
     def getTeamName(self):
-        print(self.name)
+        return self.name
 
     def addWins(self):
         self.wins+=1
@@ -15,4 +15,4 @@ class team:
         self.losses+=1;
 
     def getRecord(self):
-        print(str(self.wins) + " wins and " + str(self.losses) + " losses")
+        print(self.name + ": " + str(self.wins) + " wins and " + str(self.losses) + " losses")

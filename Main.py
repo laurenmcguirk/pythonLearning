@@ -18,16 +18,15 @@ match1.getMatchName()
 match2.getMatchName()
 
 #Get Match Results
-match1.endMatch(team1, 8, team2, 6)
-
-
-
-""""
-match2.endMatch(team2, 3, team4, 7)
+match1.endMatch(8, 6)
+#match2.endMatch(team2, 3, team4, 7)
 
 #Get records
 team1.getRecord()
 team2.getRecord()
 team3.getRecord()
 team4.getRecord()
+
+"""
+
 """
