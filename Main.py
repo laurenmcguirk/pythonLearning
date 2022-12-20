@@ -10,19 +10,24 @@ team4 = team("Team 4")
 
 #Put teams into matches
 match = matchClass.match
-match1 = match("Match 1", team1, 8, team2, 5)
-match2 = match("Match 2", team3, 2, team4, 6)
+match1 = match("Match 1", team1, team2)
+match2 = match("Match 2", team3, team4,)
 
 #Test for correct match name
 match1.getMatchName()
 match2.getMatchName()
 
 #Get Match Results
-match1.getMatchResults()
-match2.getMatchResults()
+match1.endMatch(team1, 8, team2, 6)
+
+
+
+""""
+match2.endMatch(team2, 3, team4, 7)
 
 #Get records
 team1.getRecord()
 team2.getRecord()
 team3.getRecord()
 team4.getRecord()
+"""
